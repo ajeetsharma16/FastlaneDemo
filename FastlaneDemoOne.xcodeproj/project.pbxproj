@@ -12,9 +12,11 @@
 		642242E1253E0F710080D6E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642242DF253E0F710080D6E3 /* Main.storyboard */; };
 		642242E3253E0F730080D6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642242E2253E0F730080D6E3 /* Assets.xcassets */; };
 		642242E6253E0F730080D6E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642242E4253E0F730080D6E3 /* LaunchScreen.storyboard */; };
+		F02E06547279E846C9D76088 /* Pods_FastlaneDemoOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7E50E87E7C2404FB3A7093 /* Pods_FastlaneDemoOne.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B7E50E87E7C2404FB3A7093 /* Pods_FastlaneDemoOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastlaneDemoOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		642242D8253E0F710080D6E3 /* FastlaneDemoOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastlaneDemoOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		642242DB253E0F710080D6E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		642242DD253E0F710080D6E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		642242E2253E0F730080D6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		642242E5253E0F730080D6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		642242E7253E0F730080D6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CFEAF9B75F56945B41D5DCE /* Pods-FastlaneDemoOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneDemoOne.debug.xcconfig"; path = "Target Support Files/Pods-FastlaneDemoOne/Pods-FastlaneDemoOne.debug.xcconfig"; sourceTree = "<group>"; };
+		E811A240E7700131C02161FF /* Pods-FastlaneDemoOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneDemoOne.release.xcconfig"; path = "Target Support Files/Pods-FastlaneDemoOne/Pods-FastlaneDemoOne.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02E06547279E846C9D76088 /* Pods_FastlaneDemoOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				642242DA253E0F710080D6E3 /* FastlaneDemoOne */,
 				642242D9253E0F710080D6E3 /* Products */,
+				CBB99DF179A981B12A78D33C /* Pods */,
+				6A4CAFC820EA6DAF73D39DA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,24 @@
 			path = FastlaneDemoOne;
 			sourceTree = "<group>";
 		};
+		6A4CAFC820EA6DAF73D39DA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B7E50E87E7C2404FB3A7093 /* Pods_FastlaneDemoOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBB99DF179A981B12A78D33C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CFEAF9B75F56945B41D5DCE /* Pods-FastlaneDemoOne.debug.xcconfig */,
+				E811A240E7700131C02161FF /* Pods-FastlaneDemoOne.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +96,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 642242EA253E0F730080D6E3 /* Build configuration list for PBXNativeTarget "FastlaneDemoOne" */;
 			buildPhases = (
+				55F20B3B87A855AE28975142 /* [CP] Check Pods Manifest.lock */,
 				642242D4253E0F710080D6E3 /* Sources */,
 				642242D5253E0F710080D6E3 /* Frameworks */,
 				642242D6253E0F710080D6E3 /* Resources */,
@@ -129,6 +155,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55F20B3B87A855AE28975142 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastlaneDemoOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		642242D4253E0F710080D6E3 /* Sources */ = {
@@ -280,6 +331,7 @@
 		};
 		642242EB253E0F730080D6E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CFEAF9B75F56945B41D5DCE /* Pods-FastlaneDemoOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +350,7 @@
 		};
 		642242EC253E0F730080D6E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E811A240E7700131C02161FF /* Pods-FastlaneDemoOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
