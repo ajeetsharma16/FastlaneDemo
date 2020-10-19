@@ -85,7 +85,6 @@
 				6CFEAF9B75F56945B41D5DCE /* Pods-FastlaneDemoOne.debug.xcconfig */,
 				E811A240E7700131C02161FF /* Pods-FastlaneDemoOne.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -341,7 +340,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hurekatek.fastlaneDemo.FastlaneDemoOne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastlaneDemoOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,7 +359,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hurekatek.fastlaneDemo.FastlaneDemoOne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastlaneDemoOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
